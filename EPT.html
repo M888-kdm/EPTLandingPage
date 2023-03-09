@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans" />
+    <link rel="stylesheet" href="EPTstyle.css">
+    <link rel="stylesheet" href="./EPT.css">
+    <link rel="stylesheet" href="./fontawesome/css/all.css">
+    <title>Ecole Polytechnique de Thies</title>
+</head>
+<body>
+    <div class="container-fluid header">
+        <div class="row d-flex flex-wrap bg-gray text-white justify-content-center justify-content-md-between justify-content-xl-around align-items-center py-2">
+            <ul class="col-12 mb-3 mb-md-0 col-md-8 justify-content-center justify-content-md-start list-inline d-flex flex-wrap my-auto contacts">
+                <li class="tel mx-2">
+                    <i class="fas fa-phone-alt"></i>
+                    +221 76 223 61 60
+                </li>
+                <li class="mail mx-2">
+                    <i class="fas fa-envelope"></i>
+                    ept@ept.sn
+                </li>
+                <li class="address mx-2">
+                    <i class="fas fa-map-marker-alt"></i>
+                    Entrée de Thiès - BP A10
+                </li>
+            </ul>
+            <div class="social-media col-2 justify-content-center justify-content-md-end d-flex">
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab mx-2 fa-twitter"></i>
+                <i class="fab fa-youtube"></i>
+            </div>
+        </div>
+        <div class="row nav-container">
+            <nav class="navbar navbar-expand-md col-lg-10 mx-lg-auto d-flex flex-column p-0 flex-md-row justify-content-center justify-content-md-between justify-content-lg-around">           
+                <a href="https://ept.sn" class="navbar-brand mx-auto">
+                    <img src="./images/logoept.png" alt="">
+                </a>
+                <button class="navbar-toggler col-12 mt-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fas fa-bars fa-lg navbar-toggler-icon" id="toggler"></i>
+                </button>
+                <div class="d-md-none mb-4 f-14 search-bar col-12 col-md-1 d-flex">
+                    <form class="col-12">
+                        <input class="d-block col-12" placeholder="Rechercher..." type="search" id="recherche1">
+                    </form>
+                    <i class="fa fa-search m-auto color-gray" id="search-icon" aria-hidden="true"></i>
+                </div>
+                <div class="collapse navbar-collapse col-12 col-md-7 d-md-flex justify-content-md-end f-15" id="navbarSupportedContent">
+                    <ul class="navbar-nav d-md-flex flex-md-wrap">
+                        <li class="nav-item dropdown">
+                            <a href="" class="nav-link border-bottom ps-3" id="ept" role="button" data-bs-toggle="dropdown" aria-expanded="false">L'EPT <i class="fas d-none d-md-inline fa-chevron-down"></i></a>
+                            <ul class="dropdown-menu mt-0 rounded-0 f-14 p-0" aria-labelledby="ept">
+                                <li><a class="d-flex align-items-center dropdown-item border-bottom ps-4 ps-md-3" href="">MOT DU DIRECTEUR</a></li>
+                                <li><a class="d-flex align-items-center dropdown-item border-bottom ps-4 ps-md-3">PRESENTATION</a></li>
+                                <li><a class="d-flex align-items-center dropdown-item border-bottom ps-4 ps-md-3">L'EPT EN CHIFFRES</a></li>
+                                <li><a class="d-flex align-items-center dropdown-item border-bottom ps-4 ps-md-3">SERVICES ADMINISTRATIFS</a></li>
+                                <li><a class="d-flex align-items-center dropdown-item ps-4 ps-md-3">PARTENARIATS</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a href="" class="nav-link ps-3 border-bottom" id="formation" role="button" data-bs-toggle="dropdown" aria-expanded="false">FORMATION <i class="fas d-none d-md-inline fa-chevron-down"></i></a>
+                            <ul class="dropdown-menu mt-0 rounded-0 f-14 p-0" aria-labelledby="formation">
+                                <li><a class="d-flex align-items-center dropdown-item border-bottom ps-4 ps-md-3" id="mina">DIRECTION DES ETUDES</a></li>
+                                <li><a class="d-flex align-items-center dropdown-item border-bottom ps-4 ps-md-3">ADMISSION ET CURSUS</a></li>
+                                <li><a class="d-flex align-items-center dropdown-item border-bottom ps-4 ps-md-3">DEPARTEMENTS</a></li>
+                                <li><a class="d-flex align-items-center dropdown-item ps-4 ps-md-3">MASTERS</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a href="" class="nav-link ps-3 border-bottom" id="recherche" role="button" data-bs-toggle="dropdown" aria-expanded="false">RECHERCHE <i class="fas d-none d-md-inline fa-chevron-down"></i></a>
+                            <ul class="dropdown-menu mt-0 rounded-0 f-14 p-0" aria-labelledby="recherche">
+                                <li><a class="d-flex align-items-center dropdown-item border-bottom ps-4 ps-md-3">ANNUAIRE</a></li>
+                                <li><a class="d-flex align-items-center dropdown-item border-bottom ps-4 ps-md-3">LABORATOIRES DE RECHERCHE</a></li>
+                                <li><a class="d-flex align-items-center dropdown-item border-bottom ps-4 ps-md-3">ORGANISATION</a></li>
+                                <li><a class="d-flex align-items-center dropdown-item ps-4 ps-md-3">PROJETS</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a href="" class="nav-link ps-3 border-bottom" id="student" role="button" data-bs-toggle="dropdown" aria-expanded="false">VIE ETUDIANTE <i class="fas d-none d-md-inline fa-chevron-down"></i></a>
+                            <ul class="dropdown-menu mt-0 rounded-0 f-14 p-0" aria-labelledby="student">
+                                <li><a class="d-flex align-items-center dropdown-item border-bottom ps-4 ps-md-3">CAMPUS SOCIAL</a></li>
+                                <li><a class="d-flex align-items-center dropdown-item border-bottom ps-4 ps-md-3">ACTIVITES</a></li>
+                                <li><a class="d-flex align-items-center dropdown-item ps-4 ps-md-3">GALERIE</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a href="" class="nav-link ps-3 border-bottom" id="exam" role="button" data-bs-toggle="dropdown" aria-expanded="false">CONCOURS <i class="fas d-none d-md-inline fa-chevron-down"></i></a>
+                            <ul class="dropdown-menu mt-0 rounded-0 f-14 p-0" aria-labelledby="exam">
+                                <li><a class="d-flex align-items-center dropdown-item border-bottom ps-4 ps-md-3">CONCOURS D'ENTREE</a></li>
+                                <li><a class="d-flex align-items-center dropdown-item ps-4 ps-md-3">RESULTATS CONCOURS D'ENTREE</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a href="" class="nav-link ms-3">CONTACTS</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="search-bar col-12 col-md-1 d-flex">
+                    <i class="fa fa-search d-none d-md-block m-auto" id="search-icon" aria-hidden="true"></i>
+                </div>
+            </nav>
+        </div>
+    </div>
+
+    <!-- carousel -->
+    <div id="carousel1" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="d-block w-100" src="./images/adjamaroc.png" alt="First slide">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="./images/SLID-3.png" alt="Second slide">
+            </div>
+        </div>
+        <button class="carousel-control-prev control bg-dark" type="button" data-bs-target="#carousel1" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next control bg-dark" type="button" data-bs-target="#carousel1" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!-- Actualités -->
+    <div class="container-fluid bg-gray text-white p-4 mb-5">
+        <div class="container-fluid d-flex flex-column flex-lg-row">
+            <div class="fw-bold col-6 col-lg-3 mx-auto p-lg-4 text-center m-auto actu">
+                NOUVELLES ACTUALITES
+            </div>
+            <hr class="divider mx-auto mt-0 d-lg-none">
+            <div id="carousel2" class="carousel slide col-12 col-lg-8 ms-lg-5 d-flex flex-column flex-lg-row" data-ride="carousel">
+                <div class="carousel-inner d-lg-flex text-center align-items-lg-center">
+                    <div class="carousel-item active">
+                        <h4 class="hover-orange">Atelier de Photogrammétrie par drone</h4>
+                        <p class="fw-light">Le 14 juillet 2021, l’École Polytechnique de Thiès (EPT) en...</p>
+                    </div>
+                    <div class="carousel-item">
+                        <h4 class="hover-orange">Réception Matériels PESEREE</h4>
+                        <p class="fw-light">Dans le cadre de son partenariat avec le Programme d’Enseignement...</p>
+                    </div>
+                    <div class="carousel-item">
+                        <h4 class="hover-orange">Visite du DGRI à l'EPT</h4>
+                        <p class="fw-light">L’Ecole Polytechnique de Thiès a reçu le mardi 15 juin...</p>
+                    </div>
+                </div>
+                <div class="controllers d-flex flex-row flex-lg-column mx-auto mx-lg-0">
+                    <button class="chevron" type="button" data-bs-target="#carousel2" data-bs-slide="next">
+                        <span class="fas fa-chevron-up p-1 text-white border rounded-circle" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                    <button class="chevron" type="button" data-bs-target="#carousel2" data-bs-slide="prev">
+                        <span class="fas fa-chevron-down p-1 text-white border rounded-circle" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Presentation with cards -->
+    <div class="container-fluid text-center pt-5 mb-5" id="firstcontainer">
+        <h4 class="color-gray f-15">BIENVENUE A</h4>
+        <h1 class="fw-bold" style="font-size: 50px;">L'ECOLE POLYTECHNIQUE DE THIES</h1>
+        <div class="line"></div>
+        <h5 class="mb-5 color-gray f-15">Du cycle préparatoire aux métiers de l'ingénieur...</h5>
+
+        <!-- Cards -->
+        <div class="row p-3 p-sm-0 d-flex flex-wrap card-container justify-content-sm-around">
+            <div class="card mt-2 col-12 col-sm-5 col-md-3 mb-4 p-3 pt-5 card-1 rounded-0">
+                <img src="./images/1-90x90.png" alt="" class="card-img-top s-90">
+                <div class="card-body">                  
+                  <h5 class="card-title">Présentation de l’EPT</h5>
+                  <p class="card-text">Présentation Depuis 2001, l’Etat sénégalais a engagé la réforme du secteur de l’Enseignement supérieur, intégré au Programme Décennal de l’Education...</p>
+                </div>
+            </div>
+            <div class="card mt-2 col-12 col-sm-5 col-md-3 mx-md-5 mx-lg-2 mx-xl-5 mb-4 p-3 pt-5 card-1 rounded-0">
+                <img src="./images/2-90x90.png" alt="" class="card-img-top s-90">
+                <div class="card-body">
+                  <h5 class="card-title">Admission et Cursus a l'EPT</h5>
+                  <p class="card-text">L’objectif du programme d’études en vigueur à l’EPT est de former, dans les domaines du génie civil, génie électromécanique, génie...</p>
+                </div>
+            </div>
+            <div class="card mt-2 col-12 col-sm-5 col-md-3 mb-4 p-3 pt-5 card-1 rounded-0">
+                <img src="./images/3-1-90x90.png" alt="" class="card-img-top s-90">
+                <div class="card-body">
+                  <h5 class="card-title">Missions des Services de l'EPT</h5>
+                  <p class="card-text">Pour répondre aux préoccupations de l’heure et atteindre les objectifs que nous nous sommes fixés à travers la nouvelle vision...</p>
+                </div>
+            </div>
+            <div class="card mt-2 col-12 col-sm-5 col-md-3 mb-4 p-3 pt-5 card-1 rounded-0">
+                <img src="./images/4-1-90x90.png" alt="" class="card-img-top s-90">
+                <div class="card-body">
+                  <h5 class="card-title">Plus de 40 ans De Formations D'ingenieurs</h5>
+                  <p class="card-text">L’EPT est une école d’ingénieur forte de 48 ans d’expertise dans la formation d’ingénieurs de conception en Génie Civil, Génie...</p>
+                </div>
+            </div>
+            <div class="card mt-2 col-12 col-sm-5 col-md-3 mx-md-5 mx-lg-2 mx-xl-5 mb-4 p-3 pt-5 card-1 rounded-0 ">
+                <img src="./images/5-1-90x90.png" alt="" class="card-img-top s-90">
+                <div class="card-body">
+                  <h5 class="card-title">Fablab</h5>
+                  <p class="card-text">Le Polylab est un fablab (Fabrication Laboratory) qui peut être vu comme un centre de compétences en technologies numériques. Il...</p>
+                </div>
+            </div>
+            <div class="card mt-2 col-12 col-sm-5 col-md-3 mb-4  p-3 pt-5 card-1 rounded-0">
+                <img src="./images/a6.png" id="compas" alt="" class="card-img-top s-90">
+                <div class="card-body">
+                  <h5 class="card-title">CPDI</h5>
+                  <p class="card-text">L'EPT s'est dotée d’un nouveau plan stratégique 2021-2026. Dans le cadre de sa mise en œuvre, un Centre de Productivité...</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid my-5 px-sm-4 px-lg-5 d-flex flex-wrap justify-content-center">
+        <div class="col-12 col-md-6 h-100 director bg-black p-4 text-white">
+            <h3 class="mt-4 fw-bold">Mot du directeur</h3>
+            <div class="line-left"></div>
+            <p class="text f-13 lh-2 ">
+                Chers internautes,<br> Je vous souhaite la plus chaleureuse bienvenue sur le site web de l’École Polytechnique de Thiès (EPT), 
+                la première école d’ingénieurs de conception du Sénégal. L’EPT a été fondée en 1973 avec deux départements d’ingénierie. 
+                Aujourd’hui, elle en compte plusieurs. Sa mission fondamentale est de fournir à la jeune génération des formations de très 
+                haut niveau dans le domaine de l’ingénierie en combinant l’éducation, la recherche et l’innovation.
+                <br/><a href="" class="orange">Lire la suite...</a>
+            </p>
+            <h5 class="f-15 fw-bold">Pr. Alassane Diene</h5>
+            <h5 class="f-15 orange mb-5">Le Directeur</h5>
+        </div>
+        <div class="col-12 col-md-6 h-75 adiene my-md-auto my-0">
+            <img src="./images/adiene.png" alt="" class="img img-fluid">
+        </div>
+    </div>
+
+    <div class="container-fluid d-flex flex-column text-center pt-5">
+        <h1 style="font-size: 50px;" class="fw-bold">ACTUALITES</h1>
+        <div class="line"></div>
+        <div class="container-fluid d-flex card-container-2 justify-content-sm-center justify-content-lg-around">
+            <div class="card col-12 col-sm-6 me-sm-1 me-lg-4 col-lg-3 card-2 rounded-0">
+                <img src="./images/Image-Resultats-CCI-2021-358x276.png" alt="" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title mb-3 hover-orange">RESULTATS CAMES 2021</h5>
+                    <p class="card-text raleway">Le Comité Consultatif Général (CCG) du CAMES a publié le 15 septembre 2021 les résultats définitifs de la 43eme session des CCI.</p>
+                </div>
+            </div>
+            <div class="card d-none d-sm-block col-sm-6 ms-sm-1 ms-lg-0 col-lg-3 card-2 rounded-0">
+                <img src="./images/resultat-concours-358x276.jpeg" alt="" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title mb-3 hover-orange">RESULTATS CONCOURS D'ENTREE</h5>
+                    <p class="card-text raleway">Voici les résultats du concours d'entrée en premiere année, session du 12 Juin 2021 en 3 fichiers : COMMUNIQUE INSCRIPTION</p>
+                </div>
+            </div>
+            <div class="card d-none d-lg-block ms-lg-4 col-sm-6 col-lg-3 card-2 rounded-0">
+                <img src="./images/2-358x276.jpeg" alt="" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title mb-3 hover-orange">RECEPTION MATERIELS PESEREE</h5>
+                    <p class="card-text raleway">Dans le cadre de son partenariat avec le Programme d'Enseignement Superieur pour les Energies Renouvables et l'Efficacité Energétique (PESEREE), l'ECOLE</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="button-wrapper mt-5 mb-5">
+            <button type="button" class="btn border"><h4 class="fw-light mb-0">Voir toutes les actualités</h3></button>
+        </div>
+    </div>
+
+    
+    <!-- mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm -->
+
+
+    <section class="container-xl">
+        <div class="row">
+            <div class="col">
+                <div class="text-muted size space">NE RATEZ SURTOUT PAS NOS PROCHAINS</div>
+                <h1 style="font-size: 50px;" class="fw-bold">ÉVÉNEMENTS</h1>
+                <div class="trait m-0 mt-3" ></div>
+            </div>
+            <div class="col d-flex align-items-end flex-column pt-4">
+               <button class="py-1 px-3 rounded boutton bg-white size">Voir Tout</button>
+            </div>
+        </div>
+        <div class="row pad border-bottom ">
+            <div class="col-2 pe-4">
+                <div class="border-end bordure">
+                    <h1 class="mb-0 couleur display-3 fw-bold date1">31</h1>
+                <p class="mb-0 couleur size2 fw-bolder date2">DEC ,2021</p>
+                </div>
+            </div>
+            <div class="col-7 px-5">
+                <h4 class="orange1">Concours Interuniversitaire Sur Les Energies Re
+                    nouvelables Et L’Efficacité Énergétique (CIEREE)</h4>
+                <div class="mb-4 mt-2 size text-muted"> <i class="fa fa-map-marker" aria-hidden="true"></i>&ensp;
+                    http://www.cieree.com/postulants/new 
+                </div>
+                <div class="text-muted">Dans le cadre du développement de l’esprit entrepreneurial des étudiants dans le domaine des Energies...</div>
+            </div>
+            <div class="col p-0 text-center"><img src="./image/ciere-271x141.png" alt="" class="float-right " width="75%"></div>
+        </div>
+        <div class="row pad border-bottom ">
+            <div class="col-2 pe-4">
+                <div class="border-end bordure">
+                    <h1 class="mb-0 couleur display-3 fw-bold date1 ">27</h1>
+                <p class="mb-0 couleur size2 fw-bold date2">NOV ,2021</p>
+                </div>
+            </div>
+            <div class="col-7 px-5">
+                <h4 class="orange1">AMPHI DE RENTREE ANNEE ACADEMIQUE 2021-2022</h4>
+                <div class="mb-4 mt-2 size text-muted "><i class="fa fa-clock-o" aria-hidden="true"></i> 9h  &emsp;<i class="fa fa-map-marker" aria-hidden="true"></i>
+                    Ecole Polytechnique de Thiès
+                </div>
+                <div class="text-muted size2">Tous les nouveaux Elèves sont convoqués à l'auditorium de l'Ecole Polytechnique de Thiès le samedi...</div>
+            </div>
+            <div class="col p-0 text-center"><img src="./image/IMG_1790-271x141.jpg" alt="" class="float-right " width="75%"></div>
+        </div>
+        <div class="row pad ">
+            <div class="col-2 pe-4">
+                <div class="border-end bordure">
+                    <h1 class="mb-0 couleur display-3 fw-bolder date1">13</h1>
+                <p class="mb-0 couleur size2 fw-bold date2">SEP ,2021</p>
+                </div>
+            </div>
+            <div class="col-7 px-5">
+                <h4 class="orange1">RESULTATS CONCOURS D’ENTREE 2021</h4>
+                <div class="mb-4 mt-2 size text-muted"><i class="fa fa-clock-o" aria-hidden="true"></i> 08:00  &emsp;<i class="fa fa-map-marker" aria-hidden="true"></i>
+                    Melbourne, Australia
+                </div>
+                <div class="text-muted size2">Voici les  résultats du concours d’entrée en première année, session du 12 Juin 2021 en 3 fichiers...</div>
+            </div>
+            <div class="col p-0 text-center"><img src="./image/courcours-ept-271x141.jpg" alt="" class="float-right " width="75%"></div>
+        </div>
+        </section>
+        <div class="image-derriere text-light ">
+            <div class="container-lg d-flex align-items-center h-100 candidat">
+                <div class="pe-4 py-4 border-end size2 ps-5 candi">CANDIDATER</div>
+                <div class="ps-5 size2 ">
+                    <h3 class="fw-bold">CONCOURS D’ENTRÉE À L'EPT</h3>
+                    <p>L’EPT organise à l’intention des élèves des classes de Terminales Scientifiques un concours d’entrée en 1ére année à l’EPT, le samedi 12 juin 2021 de 15 h à 18 h.</p>
+                </div>
+                <div>
+                    <button type="button " class="btn btn-outline-light px-4 size2 "> <a href="#"></a> JE SUIS CANDIDAT</button>
+                </div>
+                
+            </div>
+        </div>
+        <section class="container pt-5 ">
+            <div class="text-center mb-4 ">
+                <p class="pt-4 text-muted size2"> RÉALISATIONS</p>
+                <h1 class="fw-bold" style="font-size: 50px;">L'EPT EN CHIFFRES</h1>
+                <div class=" trait mb-5 mt-3 m-auto" ></div>
+             </div>
+             <div class="row d-flex justify-content-around mb-5 pb-5">
+                 <div class="col text-center">
+                     <i class="fa fa-graduation-cap fa-4x last-color" aria-hidden="true"></i>
+                     <h1 class="couleur">1526</h1>
+                     <p>DIPLOMÉS</p>
+                 </div>
+                 <div class="col text-center">
+                    <i class="fa fa-sitemap fa-4x last-color" aria-hidden="true"></i>
+                     <h1 class="couleur">4</h1>
+                     <p>DÉPARTEMENTS</p>
+                 </div>
+                 <div class="col text-center"> 
+                    <i class="fa fa-folder-open fa-4x last-color" aria-hidden="true"></i>
+                     <h1 class="couleur">2</h1>
+                     <p>MASTERS</p>
+                 </div>
+                 <div class="col text-center"> 
+                    <i class="fa fa-search fa-4x last-color" aria-hidden="true"></i>
+                     <h1 class="couleur">44</h1>
+                     <P>ENSEIGNANT-CHERCHEURS</p>
+                 </div>
+             </div>
+        </section>
+        <section class="container-xl pt-5">
+            <div class="row">
+                <div class="col-md">
+                    <h1 class="fw-bold">Foire Aux Questions</h1> 
+                    <div class="border grise mb-4">
+                        <div class="py-4 ps-2  d-flex bd-highlight ">
+                            <div class="p-2 w-100 bd-highlight size2">QUELLES SONT LES CONDITIONS ET LES PROCÉDURES D’ADMISSION À L’EPT</div>
+                            <div class="p-2 ms-auto bd-highlight"> <a href="#c_button1" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="c_button1" class="btn ps-4 py-0 btn-dark  rounded-0 plus"><strong><h5>+</h5></strong></a></div>
+                       </div>
+                      <div class="collapse" id="c_button1">
+                        <div class="card card-body border-0 text-muted size2 grise">
+                            <div class="d-flex">
+                                <p class="trait1 me-1"></p>
+                                <p class="trait2 bg-dark"></p>
+                            </div>
+                            <p>
+                                L’admission en première année de tronc commun se fait via un concours et sur dossier pour les ressortissants de pays disposant de convention de coopération pédagogique avec le Sénégal. Pour le cycle master le recrutement se fait sur examen de dossiers. Le concours d’entrée en première année de tronc commun, ainsi que la sélection des dossiers pour les Master se font suite à un appel à candidatures via le site officiel de l’école, par affichages, par voie de presse et sur les réseaux sociaux
+                            </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="border mb-4 grise">
+                        <div class="py-4 ps-2  d-flex bd-highlight ">
+                            <div class="p-2 w100 bd-highlight size2">COMMENT SE PASSE LA FORMATION UNE FOIS À L’EPT? </div>
+                            <div class="p-2 ms-auto flex-shrink-1 bd-highlight"> <a href="#c_button2" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="c_button2" class="btn ps-4  py-0 btn-dark  rounded-0 plus "><strong><h5>+</h5></strong></a></div>
+                       </div>
+                      <div class="collapse" id="c_button2">
+                        <div class="card card-body border-0 text-muted size2 grise">
+                            <div class="d-flex">
+                                <p class="trait1 me-1"></p>
+                                <p class="trait2 bg-dark"></p>
+                            </div>
+                            <p>
+                                Le cycle de formation de 5 ans, après concours, se subdivise en deux parties : le Tronc Commun (2 ans) et la Spécialisation (3 ans).
+                            </p>
+                            <p>
+                                La spécialisation pourra se faire en Génie Civil, Génie Électromécanique, Génie Informatique & Télécommunications ou en Génie Aéronautique.
+                         </div>
+                        </div>
+                    </div>
+                   <div class="border grise mb-4">
+                    <div class="py-4 ps-2  d-flex bd-highlight ">
+                        <div class="p-2 w100 bd-highlight size2">QUELS SONT LES ÉLEVÉS QUI PEUVENT SE PRÉSENTER AU CONCOURS ET SUR QUELLES MATIÈRES SERONT-ILS ÉVALUÉS?</div>
+                        <div class="p-2 ms-auto flex-shrink-1 bd-highlight"> <a href="#c_button3" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="c_button3" class="btn ps-4 py-0 btn-dark  rounded-0 plus"><strong><h5>+</h5></strong></a></div>
+                   </div>
+                  <div class="collapse" id="c_button3">
+                        <div class="card card-body border-0 text-muted size2 grise">
+                            <div class="d-flex">
+                                <p class="trait1 me-1"></p>
+                                <p class="trait2 bg-dark"></p>
+                            </div>
+                        <p>
+                            Le concours est ouvert aux élèves des classes de terminales scientifiques ou techniques (S1, S2, S3, T1, T2), mais également aux bacheliers et candidats libres aux baccalauréats (S1, S2, S3, T1, T2). 
+                        </p>
+                        <p>
+                            Les matières à traiter sous forme de questions à choix multiples (QCM) sont : Mathématiques, Physique, Français, Anglais. La durée des épreuves est de trois heures.
+                        </p>
+                    </div>
+                    </div>
+                </div>
+            </div>
+                <div class="col-md ">
+                    <h1 class="mb-2 fw-bold">Ce Qu'ils Disent De Nous</h1>
+                    <div class="position-relative">
+                        <div class="border rounded py-5 px-4 grise">
+                            <p>Consciente de l’importance de plus en plus grandissante que l’auto-emploi occupe dans l’économie des pays en voie de développement, l’Ecole Polytechnique de Thiès se veut un vivier de start-ups innovantes…</p>
+                        </div>
+                        <div class="d-flex align-items-center position-absolute positionnement ">
+                            <div >
+                                <img class="border border-4 rounded-circle" src="./image/avatar-103x103.png" alt="Person" width="100" height="100">
+                            </div>
+                            <div>
+                               <p class="fw-bold size ps-1 m-0 w-75">GORA FAM SECK | ELÈVE INGÉNIEUR</p> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            <p class="text-center text-muted pt-5 mt-5">NOUS COLLABORONS AVEC</p>
+            <h1 class="text-center fw-bold" style="font-size: 50px;">Nos Partenaires</h1>
+            <div class="row justify-content-center mb-5 pb-4">
+                <div class="part-img col-4 text-center"><img src="./image/7.png" ></div>
+                <div class="part-img col-4 text-center"><img src="./image/6.png" ></div>
+                <div class="part-img col-4 text-center"><img src="./image/5.png" ></div>
+                <div class="part-img d-none"><img src="./image/3.png" ></div>
+                <div class="part-img d-none"><img src="./image/4.png" ></div>
+                <div class="part-img d-none"><img src="./image/aibd-1.png"></div>
+                <div class="part-img d-none"><img src="./image/eiffage-1.png"></div>
+            </div>
+        </section>
+        <footer class="bg-dark">
+            <div class="row  p-5">
+                <div class="col-md mb-3">
+                    <img  src="./image/images.jpg" alt="">
+                </div>
+                <div class="col-md">
+                    <p class="text-light size">ACTUALITES RECENTES</p>
+                    <div class="d-flex">
+                        <p class="trait1 me-1"></p>
+                        <p class="trait2 bg-white"></p>
+                    </div>
+                    <div class="d-flex">
+                        <img src="./image/ciere-331x197.png" height="50px" alt="">
+                        <p class="text-light size">CONCOURS INTERUNIVERSITAIRE SUR LES ENERGIES RENOUVELABLES ET L’EFFICACITÉ ÉNERGÉTIQUE (CIEREE)</p>
+                    </div>
+                    <div class="d-flex mb-4">
+                        <img src="./image/coding-331x197.png" height="50px" alt="">
+                        <p class="text-light size"> HACKATHON CODING4INTEGRITY AFRICAN YOUTH ANTI-CORRUPTION</p>
+                    </div>
+                    <div class="d-flex">
+                        <img src="./image/Jigeen-ak-energie-331x197.png" height="50px" alt="">
+                        <p class="text-light size"> PROJET “JIGEEN AK ENERGIE”</p>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <p class="text-light size">CONTACT</p>
+                    <div class="d-flex">
+                        <p class="trait1 me-1"></p>
+                        <p class="trait2 bg-white"></p>
+                    </div>
+                    <div class="d-flex">
+                        <p class=" size text-light "><i class="fa fa-map-marker" aria-hidden="true"></i> Entrée de Thiès - BP A10</p>
+                    </div>
+                    <div class="d-flex">
+                        <p class="text-light size "><i class="fa fa-phone" aria-hidden="true"></i> +221 76 223 61 60</p>
+                    </div>
+                    <div class="d-flex">
+                        <p class="text-light size "><i class="fa fa-envelope-o" aria-hidden="true"></i> ept@ept.sn</p>
+                    </div>
+                </div>
+            </div>
+            <hr class="text-light">
+            <p class="text-light text-center pb-4 pt-2 size">© 2021 - Tous droits réservés Ecole Polytechnique de THIES</p>
+        </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,94 @@
+.boutton{
+    border-color:rgb(177, 168, 168) solid;
+}
+.size{
+    font-size: small;
+}
+.size2{
+    font-size: 14px;
+    font-family: sans-serif;
+}
+.space {
+    letter-spacing: 0.1em;
+}
+.couleur{
+    color: #dd9933;
+}
+.boutton:hover{
+    color: #dd9933;
+    border-color: #dd9933;
+    transition: 1s;
+}
+.pad{
+    padding-top: 50px ;
+    padding-bottom: 50px;
+}
+.image-derriere {
+    background: linear-gradient(rgba(0, 0, 0, 0.783),rgba(7, 7, 7, 0.742)), url('./image/Panorama-sans-titre1-scaled.jpg') center center fixed no-repeat;
+    background-size: cover;
+    height: 160px;
+}
+.trait{
+    background: #dd9933;
+    height: 3px;
+    width: 50px;
+}
+.trait2,.trait1{
+    width: 10px;
+    height: 2px;
+}
+.trait1{
+    background: #dd9933;
+}
+body {
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+  }
+.orange1:hover{
+    color:  #dd9933;
+    transition: 0.5s;
+}
+.plus {
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 56% 100%);
+}
+.positionnement{
+    top: 90%;
+    left: 7%;
+}
+@media screen and (max-width:900px) {
+    .date1{
+        font-size: 40px;
+    }
+    .date2{
+        font-size: 11px;
+    }
+    .candidat{
+        display: inline !important;
+        padding-top: 0% !important;
+        text-align: center !important;
+    }
+    .candi{
+        padding:  0 0 5px 0  !important;
+    }
+    .image-derriere{
+        height: 230px;
+    }
+}
+@media screen and (max-width:700px){
+    .bordure{
+        border-style: none !important;
+    }
+}
+.grise{
+    background-color: rgba(228, 228, 228, 0.624);
+}
+
+@media screen and (min-width: 992px){
+    .part-img{
+        display: block !important;
+        width: 13%;
+    }
+}
+
+.last-color{
+    color: rgb(162, 162, 162);
+}
